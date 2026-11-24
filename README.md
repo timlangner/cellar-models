@@ -16,6 +16,6 @@ Each file is a release asset named by its name and the first 16 digits of its SH
 
 - **`beat_this_small`** finds beats and downbeats. It is an ONNX export of the small checkpoint of [Beat This!](https://github.com/CPJKU/beat_this) by Francesco Foscarin, Jan Schlüter and Gerhard Widmer. Its README says: "The code and the published model weights are released under the MIT license. Note that some of the training files are fully copyrighted or under limited Creative Commons licenses, and it is up to the user to assess whether this may impact their use case." Its license is in [`licenses/beat_this-LICENSE`](licenses/beat_this-LICENSE).
 - **`lead_voice_small`** says where a lead voice sings. It is Cellar's own model.
-- **`htdemucs`** separates a song into vocals, drums, bass and the rest. It is an ONNX export of `htdemucs` from [Demucs](https://github.com/facebookresearch/demucs) by Alexandre Défossez and others. The code of Demucs is under the MIT license, in [`licenses/demucs-LICENSE`](licenses/demucs-LICENSE). On the weights its author wrote (issue 327, 2022-05-23): "The model weights are not covered by the MIT license, and are provided only for scientific purposes."
+- **`htdemucs`** separates a song into vocals, drums, bass and the rest. It is an ONNX export of `htdemucs` from [Demucs](https://github.com/facebookresearch/demucs) by Alexandre Défossez and others. The code of Demucs is under the MIT license, in [`licenses/demucs-LICENSE`](licenses/demucs-LICENSE).
 
 Cellar is free and not commercial.
